@@ -1,0 +1,9 @@
+#side-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 600px;
+    padding: 1rem;
+    background-color: #1AD274;
+    min-height: 100vh;
+}
