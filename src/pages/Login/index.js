@@ -18,21 +18,21 @@ export default function Accounts() {
                 <h1>ALCANCE SEUS OBJETIVOS CONOSCO</h1>
 
                 <section>
-                    <form action="" method="post">
+                    <form id="cadastro" action="" method="post">
                         <legend>CADASTRE-SE AQUI</legend>
                         <label htmlFor="name">Nome Completo</label>
-                        <input type="text"/>
+                        <input type="text" id="name" required/>
                         <label htmlFor="email">Email</label>
-                        <input type="email"/>
+                        <input type="email" required/>
                         <label htmlFor="senha">Senha</label>
-                        <input type="password"/>
+                        <input type="password" id="senha" required/>
                         <label htmlFor="confSenha">Confirmar Senha</label>
-                        <input type="password"/>
+                        <input type="password" id="confSenha" required/>
                         <button type="submit">Cadastre-se</button>
                         <Link className="logar" to="/cadastrar">Já possui um cadastro? Clique aqui</Link>
                     </form>
 
-                    <img src={happyGuy} alt="happy guy"/>
+                    <img id="happyGuy" src={happyGuy} alt="happy guy"/>
                 </section>
             </body>
         </div>
