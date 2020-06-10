@@ -11,6 +11,8 @@ export default function Entrys() {
     return (
         <Template id="entrys">
             <h1>Histórico de lançamentos</h1>
+
+            
         </Template>
     );
 }
