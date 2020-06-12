@@ -32,8 +32,8 @@ export default function Accounts() {
                     <li className={path === '/lançamentos' ? 'active' : ''}>
                         <Link to="/lançamentos">Histórico de Lançamentos</Link>
                     </li>
-                    <li className={path === '/adicionar-lançamento' ? 'active' : ''}>
-                        <Link to="/adicionar-lançamento">Adicionar Lançamento</Link>
+                    <li className={path === '/receita' ? 'active' : ''}>
+                        <Link to="/receita">Adicionar Lançamento</Link>
                     </li>
                     <li className={path === '/contas' ? 'active' : ''}>
                         <Link to="/contas">Contas</Link>
