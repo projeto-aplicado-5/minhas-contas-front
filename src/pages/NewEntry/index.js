@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, useRouteMatch } from 'react-router-dom';
 
 import Template from '../../components/Template' 
 
@@ -11,7 +12,13 @@ export default function NewEntry() {
 
     return (
         <Template>
-            <h1>Oi, eu sou o conteudo de novo lançamento.</h1>
+            <header>
+                <h1>Adicionar Lançamento</h1>
+                
+            </header>
+            
+
+
         </Template>
     );
 }
