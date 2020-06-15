@@ -5,7 +5,7 @@ import './all.css'
 
 import Routes from './routes'
 
-function App() {
+const App = () => {
   return (
     <ToastProvider>
       <Routes />

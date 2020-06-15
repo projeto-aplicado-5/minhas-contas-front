@@ -29,6 +29,8 @@ export default function Accounts() {
             .then(resp => resp.data)
             .then(resp => {
                 window.localStorage.setItem('jwt_token', resp.access_token);
+                window.localStorage.setItem('user', JSON.stringify(resp.user));
+                api.defaults.headers.common['Authorization'] = 'Bearer ' + resp.access_token;
                 history.push('/lançamentos');
             })
             .catch(error => {

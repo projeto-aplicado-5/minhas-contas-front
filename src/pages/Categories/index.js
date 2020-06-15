@@ -93,7 +93,7 @@ export default function Categories() {
                 </form>
 
                 <h3>Receitas</h3>
-                <ul class="catCadastradas">
+                <ul className="catCadastradas">
                     {categories.filter(cat => cat.type === 'income').map(category => (
                         <li key={category.id} className='income'>
                             <p>{category.name}</p>
@@ -104,7 +104,7 @@ export default function Categories() {
                     ))}
                 </ul>
                 <h3>Despesas</h3>
-                <ul class="catCadastradas">
+                <ul className="catCadastradas">
                     {categories.filter(cat => cat.type === 'expense').map(category => (
                         <li key={category.id} className='expense'>
                             <p>{category.name}</p>
